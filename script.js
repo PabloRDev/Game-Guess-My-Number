@@ -60,7 +60,6 @@ checkBtn.addEventListener("click", () => {
     checkBtn.style.backgroundColor = "#222";
     checkBtn.style.color = "#eee";
     guessNumber.textContent = guessNumber.value;
-    score.textContent = initialState.score;
     message.textContent = "🎉 You guessed it!";
   }
 });
